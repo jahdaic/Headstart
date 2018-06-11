@@ -466,7 +466,7 @@ progress[value]::-webkit-progress-value {
 	border-radius: var(--ui-radius);
 }
 
-button, input[type=button], input[type=submit], input[type=reset] {
+button, a.button, input[type=button], input[type=submit], input[type=reset] {
 	font-size: 1rem;
 	border-radius: var(--ui-radius);
 	height: var(--ui-height);
@@ -479,50 +479,50 @@ button, input[type=button], input[type=submit], input[type=reset] {
 	box-shadow: var(--ui-shadow);
 }
 
-button.large, input[type=button].large, input[type=submit].large, input[type=reset].large {
+button.large, a.button.large, input[type=button].large, input[type=submit].large, input[type=reset].large {
 	height: CALC(var(--ui-height) * 1.5);
 	padding: 0 CALC(var(--ui-padding) * 3);
 }
 
-button.wide, input[type=button].wide, input[type=submit].wide, input[type=reset].wide {
+button.wide, a.button.wide, input[type=button].wide, input[type=submit].wide, input[type=reset].wide {
 	width: 100%;
 }
 
-button.white, input[type=button].white, input[type=submit].white, input[type=reset].white  {
+button.white, a.button.white, input[type=button].white, input[type=submit].white, input[type=reset].white  {
 	background-color: var(--white);
 }
-button.dark, input[type=button].dark, input[type=submit].dark, input[type=reset].dark   {
+button.dark, a.button.dark, input[type=button].dark, input[type=submit].dark, input[type=reset].dark   {
 	background-color: var(--dark);
 	color: var(--white);
 }
-button.light, input[type=button].light, input[type=submit].light, input[type=reset].light  {
+button.light, a.button.light, input[type=button].light, input[type=submit].light, input[type=reset].light  {
 	background-color: var(--light);
 }
-button.red, input[type=button].red, input[type=submit].red, input[type=reset].red    {
+button.red, a.button.red, input[type=button].red, input[type=submit].red, input[type=reset].red    {
 	background-color: var(--red);
 	color: var(--white);
 }
-button.orange, input[type=button].orange, input[type=submit].orange, input[type=reset].orange {
+button.orange, a.button.orange, input[type=button].orange, input[type=submit].orange, input[type=reset].orange {
 	background-color: var(--orange);
 	color: var(--white);
 }
-button.yellow, input[type=button].yellow, input[type=submit].yellow, input[type=reset].yellow {
+button.yellow, a.button.yellow, input[type=button].yellow, input[type=submit].yellow, input[type=reset].yellow {
 	background-color: var(--yellow);
 }
-button.green, input[type=button].green, input[type=submit].green, input[type=reset].green  {
+button.green, a.button.green, input[type=button].green, input[type=submit].green, input[type=reset].green  {
 	background-color: var(--green);
 	color: var(--white);
 }
-button.blue, input[type=button].blue, input[type=submit].blue, input[type=reset].blue   {
+button.blue, a.button.blue, input[type=button].blue, input[type=submit].blue, input[type=reset].blue   {
 	background-color: var(--blue);
 	color: var(--white);
 }
-button.purple, input[type=button].purple, input[type=submit].purple, input[type=reset].purple {
+button.purple, a.button.purple, input[type=button].purple, input[type=submit].purple, input[type=reset].purple {
 	background-color: var(--purple);
 	color: var(--white);
 }
 
-button.outline, input[type=button].outline, input[type=submit].outline, input[type=reset].outline {
+button.outline, a.button.outline, input[type=button].outline, input[type=submit].outline, input[type=reset].outline {
 	background-color: transparent;
 	color: var(--dark);
 	border: 1px solid var(--dark);
@@ -531,44 +531,44 @@ button.outline, input[type=button].outline, input[type=submit].outline, input[ty
 	box-shadow: none;
 }
 
-button.white.outline, input[type=button].white.outline, input[type=submit].white.outline, input[type=reset].white.outline {
+button.white.outline, a.button.white.outline, input[type=button].white.outline, input[type=submit].white.outline, input[type=reset].white.outline {
 	border-color: var(--white);
 	color: var(--white);
 }
-button.dark.outline, input[type=button].dark.outline, input[type=submit].dark.outline, input[type=reset].dark.outline {
+button.dark.outline, a.dark.button, input[type=button].dark.outline, input[type=submit].dark.outline, input[type=reset].dark.outline {
 	border-color: var(--dark);
 	color: var(--dark);
 }
-button.light.outline, input[type=button].light.outline, input[type=submit].light.outline, input[type=reset].light.outline {
+button.light.outline, a.button.light.outline, input[type=button].light.outline, input[type=submit].light.outline, input[type=reset].light.outline {
 	border-color: var(--light);
 	color: var(--light);
 }
-button.red.outline, input[type=button].red.outline, input[type=submit].red.outline, input[type=reset].red.outline {
+button.red.outline, a.button.red.outline, input[type=button].red.outline, input[type=submit].red.outline, input[type=reset].red.outline {
 	border-color: var(--red);
 	color: var(--red);
 }
-button.orange.outline, input[type=button].orange.outline, input[type=submit].orange.outline, input[type=reset].orange.outline {
+button.orange.outline, a.button.orange.outline, input[type=button].orange.outline, input[type=submit].orange.outline, input[type=reset].orange.outline {
 	border-color: var(--orange);
 	color: var(--orange);
 }
-button.yellow.outline, input[type=button].yellow.outline, input[type=submit].yellow.outline, input[type=reset].yellow.outline {
+button.yellow.outline, a.button.yellow.outline, input[type=button].yellow.outline, input[type=submit].yellow.outline, input[type=reset].yellow.outline {
 	border-color: var(--yellow);
 	color: var(--yellow);
 }
-button.green.outline, input[type=button].green.outline, input[type=submit].green.outline, input[type=reset].green.outline {
+button.green.outline, a.button.green.outline, input[type=button].green.outline, input[type=submit].green.outline, input[type=reset].green.outline {
 	border-color: var(--green);
 	color: var(--green);
 }
-button.blue.outline, input[type=button].blue.outline, input[type=submit].blue.outline, input[type=reset].blue.outline {
+button.blue.outline, a.button.blue.outline, input[type=button].blue.outline, input[type=submit].blue.outline, input[type=reset].blue.outline {
 	border-color: var(--blue);
 	color: var(--blue);
 }
-button.purple.outline, input[type=button].purple.outline, input[type=submit].purple.outline, input[type=reset].purple.outline {
+button.purple.outline, a.button.purple.outline, input[type=button].purple.outline, input[type=submit].purple.outline, input[type=reset].purple.outline {
 	border-color: var(--purple);
 	color: var(--purple);
 }
 
-button[disabled], input[type=button][disabled], input[type=submit][disabled], input[type=reset][disabled] {
+button[disabled], a.button[disabled], input[type=button][disabled], input[type=submit][disabled], input[type=reset][disabled] {
 	opacity: 0.5;
 	cursor: not-allowed;
 }

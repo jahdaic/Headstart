@@ -1,6 +1,6 @@
 # Headstart
 
-The goal of this project is to create a simple, clean and consistant stylesheet that can be used in new projects to give you a headstart.
+The goal of this project is to create a minimal, clean and consistant stylesheet that can be used as the jump-off point to give your new projects a headstart.
 
 ## Features
 
